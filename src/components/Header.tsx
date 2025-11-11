@@ -2,6 +2,7 @@ import React from "react";
 import { FaPaperPlane, FaPhoneAlt } from "react-icons/fa";
 import horse from "../assets/horse.png";
 
+
 // Define TypeScript types for reusability
 interface NavLink {
   label: string;
