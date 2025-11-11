@@ -43,10 +43,10 @@ const GalleryContact: React.FC = () => {
 
     emailjs
       .sendForm(
-        "service_we80e3m", // Replace with your service ID
-        "template_wu0tzs9", // Replace with your template ID
+        "service_we80e3m", 
+        "template_wu0tzs9",
         contactFormRef.current,
-        "IcaDo3VicicKINrhX" // Replace with your public key
+        "IcaDo3VicicKINrhX" 
       )
       .then(
         () => {
