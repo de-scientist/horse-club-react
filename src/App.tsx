@@ -20,38 +20,36 @@ function Header () {
             <i className="fa-solid fa-phone"></i>
           </span>
         </div>
-
       </div>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        HOME
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        ABOUT US
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        SERVICES
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        WHY US
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        TEAM
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        BLOG
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        TESTIMONIAL
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        GALLERY
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        CONTACT US
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        FAQ
-      </a>
+
+      <div className="header-bottom">
+        <nav>
+          <ul className="nav-list">
+            <li className="nav-list-item"><a href="#home" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">home</a>
+            </li>
+            <li className="nav-list-item"><a href="#about" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">about us</a>
+            </li>
+            <li className="nav-list-item"><a href="#services" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">services</a>
+            </li>
+            <li className="nav-list-item"><a href="#reasons" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">why us</a>
+            </li>
+            <li className="nav-list-item"><a href="#team" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">team</a>
+            </li>
+            <li className="nav-list-item"><a href="#blog" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">blog</a>
+            </li>
+            <li className="nav-list-item"><a href="#testimonial" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">testimonial</a>
+            </li>
+            <li className="nav-list-item"><a href="#gallery" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">gallery</a>
+            </li>
+            <li className="nav-list-item"><a href="#gallery" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">gallery</a>
+            </li>
+            <li className="nav-list-item"><a href="#contact" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">contact us</a>
+            </li>
+            <li className="nav-list-item"><a href="#faq" target="_blank" rel="noopener noreferrer" className="nav-list-item-link">faq</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   )
 }
