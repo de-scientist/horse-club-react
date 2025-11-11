@@ -21,7 +21,7 @@ const About: React.FC<AboutProps> = ({
   across Kenya.`,
   ctaText = "Get Started Now",
   ctaLink = "https://github.com/de-scientist",
-  imageSrc = about, 
+  imageSrc = about,
   imageAlt = "horse running",
 }) => {
   return (

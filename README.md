@@ -1,6 +1,7 @@
 # 🐴 Horse Club Web App
 
 <!-- Live GitHub Stats & Badges -->
+
 [![GitHub Repo stars](https://img.shields.io/github/stars/de-scientist/horse-club?style=social)](https://github.com/de-scientist/horse-club/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/de-scientist/horse-club?style=social)](https://github.com/de-scientist/horse-club/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/de-scientist/horse-club)](https://github.com/de-scientist/horse-club/issues)
@@ -19,11 +20,11 @@
 Horse Club is a **modern, responsive web app** for horse enthusiasts in Kenya.  
 It connects riders, parents, farmers, and supporters to:
 
-- Horse training & grooming programs  
-- Veterinary services & feeding schedules  
-- Sanctuary care for rescued horses  
-- Blogs, FAQs, gallery, and community testimonials  
-- Contact and messaging via EmailJS  
+- Horse training & grooming programs
+- Veterinary services & feeding schedules
+- Sanctuary care for rescued horses
+- Blogs, FAQs, gallery, and community testimonials
+- Contact and messaging via EmailJS
 
 Built using **React + TypeScript + Tailwind CSS**, designed with **reusable modular components**.
 
@@ -31,27 +32,27 @@ Built using **React + TypeScript + Tailwind CSS**, designed with **reusable modu
 
 ## 🧩 Component Architecture
 
-| Component | Description |
-|-----------|-------------|
-| `Header` | Navigation bar with smooth scroll links. |
-| `BlogSection` | Grid of blog cards with images, tags, titles, synopsis, and author/date meta. |
-| `TestimonialSection` | Carousel-style quotes from Riders, Parents, Farmers, and Supporters. |
-| `Gallery` | Responsive grid with clickable Lightbox modal for full-size images. |
-| `Lightbox` | Reusable modal for viewing gallery images. |
-| `ContactForm` | EmailJS-integrated form with smart mobile/email handling. |
-| `FAQSection` | Collapsible FAQ items to answer common questions. |
-| `Footer` | Footer with author credit & GitHub link. |
+| Component            | Description                                                                   |
+| -------------------- | ----------------------------------------------------------------------------- |
+| `Header`             | Navigation bar with smooth scroll links.                                      |
+| `BlogSection`        | Grid of blog cards with images, tags, titles, synopsis, and author/date meta. |
+| `TestimonialSection` | Carousel-style quotes from Riders, Parents, Farmers, and Supporters.          |
+| `Gallery`            | Responsive grid with clickable Lightbox modal for full-size images.           |
+| `Lightbox`           | Reusable modal for viewing gallery images.                                    |
+| `ContactForm`        | EmailJS-integrated form with smart mobile/email handling.                     |
+| `FAQSection`         | Collapsible FAQ items to answer common questions.                             |
+| `Footer`             | Footer with author credit & GitHub link.                                      |
 
 ---
 
 ## 💡 Features
 
-- **Responsive & Mobile-Friendly**  
-- **Interactive Blog & Gallery**  
-- **Testimonials for Social Proof**  
-- **Smart Contact Form with EmailJS**  
-- **Collapsible FAQs**  
-- **Reusable Components for Easy Maintenance**  
+- **Responsive & Mobile-Friendly**
+- **Interactive Blog & Gallery**
+- **Testimonials for Social Proof**
+- **Smart Contact Form with EmailJS**
+- **Collapsible FAQs**
+- **Reusable Components for Easy Maintenance**
 
 ---
 
@@ -80,9 +81,9 @@ Contact us via form, WhatsApp, or phone. Online booking coming soon.
 <details>
 <summary>Testimonials</summary>
 
-- **Grace M., Rider**: "Horse Club has been a game-changer. Training programs built my confidence and trust with my horse."  
-- **Mary W., Parent**: "Safe environment for my children to interact with horses. Professional care and guidance."  
-- **Samuel W., Farmer**: "Feeding and veterinary services keep my horse in peak condition year-round."  
+- **Grace M., Rider**: "Horse Club has been a game-changer. Training programs built my confidence and trust with my horse."
+- **Mary W., Parent**: "Safe environment for my children to interact with horses. Professional care and guidance."
+- **Samuel W., Farmer**: "Feeding and veterinary services keep my horse in peak condition year-round."
 - **Irene N., Sanctuary Supporter**: "Neglected horses find peace and love here. Supporting this cause is fulfilling."
 
 </details>
@@ -93,8 +94,8 @@ Contact us via form, WhatsApp, or phone. Online booking coming soon.
 
 ### Prerequisites
 
-- Node.js >= 18.x  
-- npm or yarn  
+- Node.js >= 18.x
+- npm or yarn
 - EmailJS account (optional)
 
 ### Install
@@ -170,3 +171,4 @@ Email
 
 “Horses are partners in trust, discipline, and joy. This project brings that connection online.”
 — Mark Kinyanjui
+```

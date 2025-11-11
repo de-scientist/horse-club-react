@@ -8,7 +8,12 @@ interface TestimonialProps {
   author: string;
 }
 
-const TestimonialCard: React.FC<TestimonialProps> = ({ imgSrc, imgAlt, text, author }) => {
+const TestimonialCard: React.FC<TestimonialProps> = ({
+  imgSrc,
+  imgAlt,
+  text,
+  author,
+}) => {
   return (
     <div className="testimonial">
       <img src={imgSrc} alt={imgAlt} className="testimonial-img" />

@@ -22,7 +22,8 @@ const defaultFAQs: FAQItem[] = [
   },
   {
     question: "Where are you located?",
-    answer: "We are based in Murang’a, Kenya, and serve clients across the region.",
+    answer:
+      "We are based in Murang’a, Kenya, and serve clients across the region.",
   },
   {
     question: "How can I support the sanctuary?",
@@ -55,7 +56,12 @@ const FAQSection: React.FC<FAQSectionProps> = ({ faqs = defaultFAQs }) => {
             <div
               className="faq-question"
               onClick={() => toggleFAQ(index)}
-              style={{ cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "center" }}
+              style={{
+                cursor: "pointer",
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
             >
               <h4>{faq.question}</h4>
               <span className="faq-icon">

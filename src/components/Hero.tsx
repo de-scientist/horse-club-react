@@ -1,6 +1,5 @@
 import React from "react";
 
-
 interface HeroProps {
   title?: string;
   description?: string;
@@ -9,7 +8,6 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({
-  
   title = "Introducing Horse Club - Where Passion Meets Care",
   description = `At Horse Club, we believe in building a strong bond between horses and
   riders. Based in Murang'a, Kenya, we provide professional horse care,

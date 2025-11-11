@@ -16,7 +16,6 @@ interface HeaderProps {
   navLinks?: NavLink[];
 }
 
-
 const Header: React.FC<HeaderProps> = ({
   // add Default props (which ensures component works standalone)
   email = "gitaumark502@gmail.com",

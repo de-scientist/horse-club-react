@@ -19,12 +19,26 @@ interface ContactSectionProps {
 
 const defaultContactInfo: ContactInfoItem[] = [
   { iconClass: "fa-solid fa-phone", label: "+254 718 764 327" },
-  { iconClass: "fa-solid fa-envelope", label: "urhaven@apartments.com", href: "mailto:gitaumark502@gmail.com" },
-  { iconClass: "fa-brands fa-facebook", label: "Facebook", href: "https://facebook.com" },
-  { iconClass: "fa-brands fa-instagram", label: "Instagram", href: "https://instagram.com" },
+  {
+    iconClass: "fa-solid fa-envelope",
+    label: "urhaven@apartments.com",
+    href: "mailto:gitaumark502@gmail.com",
+  },
+  {
+    iconClass: "fa-brands fa-facebook",
+    label: "Facebook",
+    href: "https://facebook.com",
+  },
+  {
+    iconClass: "fa-brands fa-instagram",
+    label: "Instagram",
+    href: "https://instagram.com",
+  },
 ];
 
-const ContactSection: React.FC<ContactSectionProps> = ({ contactInfo = defaultContactInfo }) => {
+const ContactSection: React.FC<ContactSectionProps> = ({
+  contactInfo = defaultContactInfo,
+}) => {
   const [formData, setFormData] = useState<FormData>({
     firstName: "",
     lastName: "",
@@ -34,7 +48,9 @@ const ContactSection: React.FC<ContactSectionProps> = ({ contactInfo = defaultCo
 
   const [statusMessage, setStatusMessage] = useState<string>("");
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
@@ -55,7 +71,8 @@ const ContactSection: React.FC<ContactSectionProps> = ({ contactInfo = defaultCo
       <div className="contact-header">
         <h2>Contact Us</h2>
         <p>
-          We’d love to hear from you. Reach out to us through any of the channels below or send us a direct message.
+          We’d love to hear from you. Reach out to us through any of the
+          channels below or send us a direct message.
         </p>
       </div>
 

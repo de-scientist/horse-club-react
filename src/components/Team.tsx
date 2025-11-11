@@ -68,10 +68,22 @@ const TeamSection: React.FC = () => {
       imageSrc: "./src/images/me.jpg",
       imageAlt: "A head-shot of Mark",
       socialLinks: [
-        { url: "https://www.instagram.com/gitau6732/", iconClass: "fa-brands fa-instagram" },
-        { url: "https://x.com/GitauMark1", iconClass: "fa-brands fa-x-twitter" },
-        { url: "https://www.facebook.com/profile.php?id=100072778362304", iconClass: "fa-brands fa-facebook-f" },
-        { url: "https://github.com/de-scientist/", iconClass: "fa-brands fa-github" },
+        {
+          url: "https://www.instagram.com/gitau6732/",
+          iconClass: "fa-brands fa-instagram",
+        },
+        {
+          url: "https://x.com/GitauMark1",
+          iconClass: "fa-brands fa-x-twitter",
+        },
+        {
+          url: "https://www.facebook.com/profile.php?id=100072778362304",
+          iconClass: "fa-brands fa-facebook-f",
+        },
+        {
+          url: "https://github.com/de-scientist/",
+          iconClass: "fa-brands fa-github",
+        },
       ],
     },
     {
@@ -80,10 +92,22 @@ const TeamSection: React.FC = () => {
       imageSrc: "./src/images/bro.jpeg",
       imageAlt: "A head-shot of irene",
       socialLinks: [
-        { url: "https://www.instagram.com/gitau6732/", iconClass: "fa-brands fa-instagram" },
-        { url: "https://x.com/GitauMark1", iconClass: "fa-brands fa-x-twitter" },
-        { url: "https://www.facebook.com/profile.php?id=100072778362304", iconClass: "fa-brands fa-facebook-f" },
-        { url: "https://github.com/de-scientist/", iconClass: "fa-brands fa-github" },
+        {
+          url: "https://www.instagram.com/gitau6732/",
+          iconClass: "fa-brands fa-instagram",
+        },
+        {
+          url: "https://x.com/GitauMark1",
+          iconClass: "fa-brands fa-x-twitter",
+        },
+        {
+          url: "https://www.facebook.com/profile.php?id=100072778362304",
+          iconClass: "fa-brands fa-facebook-f",
+        },
+        {
+          url: "https://github.com/de-scientist/",
+          iconClass: "fa-brands fa-github",
+        },
       ],
     },
     {
@@ -92,10 +116,22 @@ const TeamSection: React.FC = () => {
       imageSrc: "./src/images/staff-babra.jpg",
       imageAlt: "A head-shot of Babra",
       socialLinks: [
-        { url: "https://www.instagram.com/gitau6732/", iconClass: "fa-brands fa-instagram" },
-        { url: "https://x.com/GitauMark1", iconClass: "fa-brands fa-x-twitter" },
-        { url: "https://www.facebook.com/profile.php?id=100072778362304", iconClass: "fa-brands fa-facebook-f" },
-        { url: "https://github.com/de-scientist/", iconClass: "fa-brands fa-github" },
+        {
+          url: "https://www.instagram.com/gitau6732/",
+          iconClass: "fa-brands fa-instagram",
+        },
+        {
+          url: "https://x.com/GitauMark1",
+          iconClass: "fa-brands fa-x-twitter",
+        },
+        {
+          url: "https://www.facebook.com/profile.php?id=100072778362304",
+          iconClass: "fa-brands fa-facebook-f",
+        },
+        {
+          url: "https://github.com/de-scientist/",
+          iconClass: "fa-brands fa-github",
+        },
       ],
     },
     {
@@ -104,10 +140,22 @@ const TeamSection: React.FC = () => {
       imageSrc: "./src/images/staff-george.jpg",
       imageAlt: "A head-shot of Fleeky",
       socialLinks: [
-        { url: "https://www.instagram.com/gitau6732/", iconClass: "fa-brands fa-instagram" },
-        { url: "https://x.com/GitauMark1", iconClass: "fa-brands fa-x-twitter" },
-        { url: "https://www.facebook.com/profile.php?id=100072778362304", iconClass: "fa-brands fa-facebook-f" },
-        { url: "https://github.com/de-scientist/", iconClass: "fa-brands fa-github" },
+        {
+          url: "https://www.instagram.com/gitau6732/",
+          iconClass: "fa-brands fa-instagram",
+        },
+        {
+          url: "https://x.com/GitauMark1",
+          iconClass: "fa-brands fa-x-twitter",
+        },
+        {
+          url: "https://www.facebook.com/profile.php?id=100072778362304",
+          iconClass: "fa-brands fa-facebook-f",
+        },
+        {
+          url: "https://github.com/de-scientist/",
+          iconClass: "fa-brands fa-github",
+        },
       ],
     },
     {
@@ -116,10 +164,22 @@ const TeamSection: React.FC = () => {
       imageSrc: "./src/images/staff-linnet.jpg",
       imageAlt: "A head-shot of Linet",
       socialLinks: [
-        { url: "https://www.instagram.com/gitau6732/", iconClass: "fa-brands fa-instagram" },
-        { url: "https://x.com/GitauMark1", iconClass: "fa-brands fa-x-twitter" },
-        { url: "https://www.facebook.com/profile.php?id=100072778362304", iconClass: "fa-brands fa-facebook-f" },
-        { url: "https://github.com/de-scientist/", iconClass: "fa-brands fa-github" },
+        {
+          url: "https://www.instagram.com/gitau6732/",
+          iconClass: "fa-brands fa-instagram",
+        },
+        {
+          url: "https://x.com/GitauMark1",
+          iconClass: "fa-brands fa-x-twitter",
+        },
+        {
+          url: "https://www.facebook.com/profile.php?id=100072778362304",
+          iconClass: "fa-brands fa-facebook-f",
+        },
+        {
+          url: "https://github.com/de-scientist/",
+          iconClass: "fa-brands fa-github",
+        },
       ],
     },
     {
@@ -128,10 +188,22 @@ const TeamSection: React.FC = () => {
       imageSrc: "./src/images/staff-joshua.jpg",
       imageAlt: "A head-shot of Joshua",
       socialLinks: [
-        { url: "https://www.instagram.com/gitau6732/", iconClass: "fa-brands fa-instagram" },
-        { url: "https://x.com/GitauMark1", iconClass: "fa-brands fa-x-twitter" },
-        { url: "https://www.facebook.com/profile.php?id=100072778362304", iconClass: "fa-brands fa-facebook-f" },
-        { url: "https://github.com/de-scientist/", iconClass: "fa-brands fa-github" },
+        {
+          url: "https://www.instagram.com/gitau6732/",
+          iconClass: "fa-brands fa-instagram",
+        },
+        {
+          url: "https://x.com/GitauMark1",
+          iconClass: "fa-brands fa-x-twitter",
+        },
+        {
+          url: "https://www.facebook.com/profile.php?id=100072778362304",
+          iconClass: "fa-brands fa-facebook-f",
+        },
+        {
+          url: "https://github.com/de-scientist/",
+          iconClass: "fa-brands fa-github",
+        },
       ],
     },
   ];

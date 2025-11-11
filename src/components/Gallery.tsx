@@ -9,7 +9,10 @@ const GallerySection: React.FC = () => {
   const galleryItems: GalleryItem[] = [
     { src: "./src/images/rider.jpg", alt: "Horse riding session" },
     { src: "./src/images/feeding.jpg", alt: "Feeding the horse" },
-    { src: "./src/images/training-session.jpg", alt: "Training field in Murang'a" },
+    {
+      src: "./src/images/training-session.jpg",
+      alt: "Training field in Murang'a",
+    },
     { src: "./src/images/grooming.jpg", alt: "Horse grooming session" },
   ];
 
@@ -46,7 +49,11 @@ const GallerySection: React.FC = () => {
           <span className="close" onClick={closeLightbox}>
             &times;
           </span>
-          <img className="lightbox-content" src={currentImg} alt="Enlarged view" />
+          <img
+            className="lightbox-content"
+            src={currentImg}
+            alt="Enlarged view"
+          />
         </div>
       )}
     </section>

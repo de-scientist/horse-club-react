@@ -10,7 +10,10 @@ const GalleryContact: React.FC = () => {
   const galleryItems = [
     { src: "../assets/rider.jpg", alt: "Horse riding session" },
     { src: "/src/images/feeding.jpg", alt: "Feeding the horse" },
-    { src: "/src/images/training-session.jpg", alt: "Training field in Murang'a" },
+    {
+      src: "/src/images/training-session.jpg",
+      alt: "Training field in Murang'a",
+    },
     { src: "/src/images/grooming.jpg", alt: "Horse grooming session" },
   ];
 
@@ -30,7 +33,10 @@ const GalleryContact: React.FC = () => {
     if (isMobile) {
       window.location.href = `mailto:${email}`;
     } else {
-      window.open(`https://mail.google.com/mail/?view=cm&to=${email}`, "_blank");
+      window.open(
+        `https://mail.google.com/mail/?view=cm&to=${email}`,
+        "_blank",
+      );
     }
   };
 
@@ -43,10 +49,10 @@ const GalleryContact: React.FC = () => {
 
     emailjs
       .sendForm(
-        "service_we80e3m", 
+        "service_we80e3m",
         "template_wu0tzs9",
         contactFormRef.current,
-        "IcaDo3VicicKINrhX" 
+        "IcaDo3VicicKINrhX",
       )
       .then(
         () => {
@@ -56,7 +62,7 @@ const GalleryContact: React.FC = () => {
         (err) => {
           setFormStatus("❌ Failed to send message. Please try again.");
           console.error(err);
-        }
+        },
       );
   };
 
@@ -95,10 +101,25 @@ const GalleryContact: React.FC = () => {
       {/* Contact Form */}
       <section className="contact">
         <form ref={contactFormRef} onSubmit={handleSubmit}>
-          <input type="text" name="firstName" placeholder="First Name" required />
+          <input
+            type="text"
+            name="firstName"
+            placeholder="First Name"
+            required
+          />
           <input type="text" name="lastName" placeholder="Last Name" required />
-          <input type="email" name="email" placeholder="Email Address" required />
-          <textarea name="message" placeholder="Your Message..." rows={6} required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message..."
+            rows={6}
+            required
+          />
           <button type="submit">Send Message</button>
         </form>
         {formStatus && <p>{formStatus}</p>}

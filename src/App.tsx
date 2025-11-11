@@ -19,14 +19,13 @@ function App() {
       <About />
       <ServicesSection />
       <ReasonsSection />
-      <TeamSection  />
+      <TeamSection />
       <BlogSection />
       <TestimonialSection />
       <GallerySection />
       <ContactSection />
       <FAQSection />
       <Footer />
-
     </div>
   );
 }
