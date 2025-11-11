@@ -105,3 +105,68 @@ cd horse-club
 npm install
 # or
 yarn install
+🛠 Usage
+
+Add Blogs → Modify blogItems array in BlogSection.tsx
+
+Add Gallery Images → Modify galleryItems array in Gallery.tsx
+
+Add Testimonials → Extend testimonials array in TestimonialSection.tsx
+
+Add FAQs → Extend faqItems array in FAQSection.tsx
+
+Contact Form → Update EmailJS credentials in .env
+
+🗂 Project Structure
+horse-club/
+│
+├─ src/
+│  ├─ components/
+│  │  ├─ BlogSection.tsx
+│  │  ├─ ContactForm.tsx
+│  │  ├─ FAQSection.tsx
+│  │  ├─ Footer.tsx
+│  │  ├─ Gallery.tsx
+│  │  ├─ Header.tsx
+│  │  ├─ Lightbox.tsx
+│  │  └─ TestimonialSection.tsx
+│  │
+│  ├─ assets/
+│  │  ├─ images/
+│  │  └─ icons/
+│  │
+│  ├─ App.tsx
+│  └─ main.tsx
+│
+├─ package.json
+├─ tsconfig.json
+├─ tailwind.config.js
+└─ README.md
+
+📜 License
+
+MIT License – see LICENSE
+ for details.
+
+🔮 Future Enhancements
+
+Dark mode toggle
+
+Animations for blog cards & testimonials
+
+Multi-language support
+
+Online booking system integration
+
+Admin panel for content management
+
+✨ Author
+
+Mark Kinyanjui
+
+GitHub
+
+Email
+
+“Horses are partners in trust, discipline, and joy. This project brings that connection online.”
+— Mark Kinyanjui
