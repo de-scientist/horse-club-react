@@ -25,6 +25,7 @@ function App() {
       <GallerySection />
       <ContactSection />
       <FAQSection />
+      <Footer />
 
     </div>
   );
