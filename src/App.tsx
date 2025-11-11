@@ -13,8 +13,8 @@ function App() {
       <About />
       <ServicesSection />
       <ReasonsSection />
-      <TeamSection />
-      
+      <TeamSection  />
+
     </div>
   );
 }
