@@ -1,10 +1,13 @@
+import { FaPaperPlane } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+
 function Header () {
   return (
     <header className="header">
       <div className="header-top">
         <div className="header-contact">
         <span className="header-contact-icon">
-          <i className="fa-solid fa-paper-plane"></i>
+          <FaPaperPlane />
         </span>
         <p className="header-contact-text"><a href="http://mailto:gitaumark502@gmail.com" target="_blank" rel="noopener noreferrer">gitaumark502@gmail.com</a></p>
         </div>
@@ -17,7 +20,7 @@ function Header () {
         <div className="header-contact">
           <p className="header-contact-text"> <a href="tel:+254 729 934 671" target="_blank" rel="noopener noreferrer">0729934671</a></p>
           <span className="header-contact-icon">
-            <i className="fa-solid fa-phone"></i>
+          <FaPhoneAlt />
           </span>
         </div>
       </div>
