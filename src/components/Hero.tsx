@@ -12,6 +12,8 @@ function Hero() {
           training, and support that ensures your horse is healthy, happy, and
           thriving.
         </h1>
+
+        {/* add a CTA button which encourages user interaction */}
         <a
           href="http://github.com/de-scientist/"
           target="_blank"
