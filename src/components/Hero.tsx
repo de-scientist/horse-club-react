@@ -1,4 +1,4 @@
-import 
+import hero from '../assets/hero-bg.jpg'
 
 function Hero() {
   return (
