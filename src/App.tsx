@@ -14,6 +14,12 @@ function Header () {
           <p className="logo-text">horse club</p>
         </div>
 
+        <div className="header-contact">
+          <p className="header-contact-text"> <a href="tel:+254 729 934 671" target="_blank" rel="noopener noreferrer">0729934671</a></p>
+          <span className="header-contact-icon">
+            <i className="fa-solid fa-phone"></i>
+          </span>
+        </div>
 
       </div>
       <a href="#" target="_blank" rel="noopener noreferrer">
