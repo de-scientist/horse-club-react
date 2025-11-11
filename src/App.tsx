@@ -1,6 +1,14 @@
 function Header () {
   return (
-    <header>
+    <header className="header">
+      <div className="header-top">
+        <div className="header-contact">
+        <span className="header-contact-icon">
+          <i className="fa-solid fa-paper-plane"></i>
+        </span>
+        <p className="header-contact-text"><a href="http://mailto:gitaumark502@gmail.com" target="_blank" rel="noopener noreferrer">gitaumark502@gmail.com</a></p>
+        </div>
+      </div>
       <a href="#" target="_blank" rel="noopener noreferrer">
         HOME
       </a>
