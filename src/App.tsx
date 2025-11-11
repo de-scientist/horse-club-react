@@ -8,6 +8,13 @@ function Header () {
         </span>
         <p className="header-contact-text"><a href="http://mailto:gitaumark502@gmail.com" target="_blank" rel="noopener noreferrer">gitaumark502@gmail.com</a></p>
         </div>
+
+        <div className="logo">
+          <img src="./assets/horse.png" alt="logo" style={{width: "40px"}} />
+          <p className="logo-text">horse club</p>
+        </div>
+
+
       </div>
       <a href="#" target="_blank" rel="noopener noreferrer">
         HOME
