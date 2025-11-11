@@ -17,7 +17,7 @@ function Hero() {
         <a
           href="http://github.com/de-scientist/"
           target="_blank" //opens link in new tab
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" //security best practice to prevent tab hijacking
           className="hero-textbox-cta"
         >
           learn more
