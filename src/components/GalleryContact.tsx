@@ -8,7 +8,7 @@ const GalleryContact: React.FC = () => {
   const contactFormRef = useRef<HTMLFormElement>(null);
 
   const galleryItems = [
-    { src: "/src/images/rider.jpg", alt: "Horse riding session" },
+    { src: "../assets/rider.jpg", alt: "Horse riding session" },
     { src: "/src/images/feeding.jpg", alt: "Feeding the horse" },
     { src: "/src/images/training-session.jpg", alt: "Training field in Murang'a" },
     { src: "/src/images/grooming.jpg", alt: "Horse grooming session" },

@@ -56,7 +56,7 @@ const BlogSection: React.FC = () => {
     {
       title: "The Importance of Proper Horse Nutrition in Kenya",
       synopsis: "Nutrition is the backbone of a horse’s health and performance. In Kenya’s diverse climate, horses require a balanced diet of hay, grains, and mineral supplements. At Horse Club, we design feeding programs that strengthen muscles, boost immunity, and improve energy levels. A well-fed horse is not only healthier but also happier, more active, and better prepared for training.",
-      imageSrc: "./src/images/blog-img-1.jpg",
+      imageSrc: "../assets/blog-img-1.jpg",
       imageAlt: "featured image",
       chips: ["travel", "lifestyle"],
       meta: { date: "31<sup>st</sup> September 2025", author: "Jane Shiru" },
