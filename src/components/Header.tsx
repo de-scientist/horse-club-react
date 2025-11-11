@@ -1,40 +1,77 @@
-import { FaPaperPlane } from "react-icons/fa";
-import { FaPhoneAlt } from "react-icons/fa";
+import React from "react";
+import { FaPaperPlane, FaPhoneAlt } from "react-icons/fa";
 import horse from "../assets/horse.png";
 
-function Header() {
+// Define TypeScript types for reusability
+interface NavLink {
+  label: string;
+  href: string;
+}
+
+interface HeaderProps {
+  email?: string;
+  phone?: string;
+  logoSrc?: string;
+  logoAlt?: string;
+  navLinks?: NavLink[];
+}
+
+const Header: React.FC<HeaderProps> = ({
+  // Default props (ensures component works standalone)
+  email = "gitaumark502@gmail.com",
+  phone = "+254 729 934 671",
+  logoSrc = horse,
+  logoAlt = "Horse Club Logo",
+  navLinks = [
+    { label: "home", href: "#home" },
+    { label: "about us", href: "#about" },
+    { label: "services", href: "#services" },
+    { label: "why us", href: "#reasons" },
+    { label: "team", href: "#team" },
+    { label: "blog", href: "#blog" },
+    { label: "testimonial", href: "#testimonial" },
+    { label: "gallery", href: "#gallery" },
+    { label: "contact us", href: "#contact" },
+    { label: "faq", href: "#faq" },
+  ],
+}) => {
   return (
     <header className="header">
+      {/* --- Top Section: Contact + Logo --- */}
       <div className="header-top">
+        {/* Left Contact: Email */}
         <div className="header-contact">
           <span className="header-contact-icon">
             <FaPaperPlane />
           </span>
           <p className="header-contact-text">
             <a
-              href="http://mailto:gitaumark502@gmail.com"
+              href={`mailto:${email}`}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Send an email"
             >
-              gitaumark502@gmail.com
+              {email}
             </a>
           </p>
         </div>
 
+        {/* Logo Section */}
         <div className="logo">
-          <img src={horse} alt="logo" style={{ width: "40px" }} />
+          <img src={logoSrc} alt={logoAlt} style={{ width: "40px" }} />
           <p className="logo-text">horse club</p>
         </div>
 
+        {/* Right Contact: Phone */}
         <div className="header-contact">
           <p className="header-contact-text">
-            {" "}
             <a
-              href="tel:+254 729 934 671"
+              href={`tel:${phone}`}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Call us"
             >
-              0729934671
+              {phone}
             </a>
           </p>
           <span className="header-contact-icon">
@@ -43,124 +80,27 @@ function Header() {
         </div>
       </div>
 
+      {/* --- Bottom Section: Navigation --- */}
       <div className="header-bottom">
         <nav>
           <ul className="nav-list">
-            <li className="nav-list-item">
-              <a
-                href="#home"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                home
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a
-                href="#about"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                about us
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a
-                href="#services"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                services
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a
-                href="#reasons"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                why us
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a
-                href="#team"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                team
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a
-                href="#blog"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                blog
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a
-                href="#testimonial"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                testimonial
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a
-                href="#gallery"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                gallery
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a
-                href="#gallery"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                gallery
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a
-                href="#contact"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                contact us
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a
-                href="#faq"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-list-item-link"
-              >
-                faq
-              </a>
-            </li>
+            {navLinks.map((link, index) => (
+              <li className="nav-list-item" key={index}>
+                <a
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="nav-list-item-link"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
           </ul>
         </nav>
       </div>
     </header>
   );
-}
+};
 
 export default Header;

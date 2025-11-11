@@ -1,31 +1,46 @@
-function Hero() {
-  return (
-    <section className="hero-section" id="home">
-        {/* text container holds the content of the hero area */}
-      <div className="hero-textbox">
-        <p className="hero-textbox-paragraph">
-          Introducing Horse Club - Where Passion Meets Care
-        </p>
-        <h1 className="hero-textbox-heading">
-          At Horse Club, we believe in building a strong bond between horses and
-          riders. Based in Murang'a, Kenya, we provide professional horse care,
-          training, and support that ensures your horse is healthy, happy, and
-          thriving.
-        </h1>
+import React from "react";
 
-        {/* add a CTA button which encourages user interaction */}
+// Define optional props to make the Hero reusable if needed in future
+interface HeroProps {
+  title?: string;
+  description?: string;
+  ctaText?: string;
+  ctaLink?: string;
+}
+
+const Hero: React.FC<HeroProps> = ({
+  // Default values ensure the component works even if no props are passed
+  title = "Introducing Horse Club - Where Passion Meets Care",
+  description = `At Horse Club, we believe in building a strong bond between horses and
+  riders. Based in Murang'a, Kenya, we provide professional horse care,
+  training, and support that ensures your horse is healthy, happy, and thriving.`,
+  ctaText = "Learn More",
+  ctaLink = "https://github.com/de-scientist/",
+}) => {
+  return (
+    // Main section for the hero area
+    <section className="hero-section" id="home">
+      {/* Text container — holds all hero text content */}
+      <div className="hero-textbox">
+        {/* Introductory tagline */}
+        <p className="hero-textbox-paragraph">{title}</p>
+
+        {/* Main heading — single h1 for accessibility and SEO */}
+        <h1 className="hero-textbox-heading">{description}</h1>
+
+        {/* Call-to-action link/button */}
         <a
-          href="http://github.com/de-scientist/"
-          target="_blank" //opens link in new tab
-          rel="noopener noreferrer" //security best practice to prevent tab hijacking
+          href={ctaLink} // Link destination (defaults to your GitHub)
+          target="_blank" // Opens in a new browser tab
+          rel="noopener noreferrer" // Prevents potential security vulnerabilities
           className="hero-textbox-cta"
-          aria-label="Learn more about Horse on Github" // improves accessibility
+          aria-label={`Navigate to ${ctaText}`} // Accessibility support for screen readers
         >
-          learn more
+          {ctaText}
         </a>
       </div>
     </section>
   );
-}
+};
 
 export default Hero;
