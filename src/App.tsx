@@ -4,6 +4,7 @@ import About from "./components/About";
 import ServicesSection from "./components/Services";
 import ReasonsSection from "./components/Reasons";
 import TeamSection from "./components/Team";
+import BlogSection from "./components/Blogs";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ServicesSection />
       <ReasonsSection />
       <TeamSection  />
+      <BlogSection />
 
     </div>
   );
