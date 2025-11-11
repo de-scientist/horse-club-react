@@ -1,6 +1,7 @@
 function Hero() {
   return (
     <section className="hero-section" id="home">
+        {/* text container holds the content of the hero area */}
       <div className="hero-textbox">
         <p className="hero-textbox-paragraph">
           Introducing Horse Club - Where Passion Meets Care
