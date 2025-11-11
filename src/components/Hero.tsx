@@ -16,7 +16,7 @@ function Hero() {
         {/* add a CTA button which encourages user interaction */}
         <a
           href="http://github.com/de-scientist/"
-          target="_blank"
+          target="_blank" //opens link in new tab
           rel="noopener noreferrer"
           className="hero-textbox-cta"
         >
