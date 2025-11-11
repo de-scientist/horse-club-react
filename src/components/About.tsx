@@ -1,4 +1,5 @@
 import React from "react";
+import about from "../assets/about-img.jpg";
 
 // Define props for flexibility and reusability
 interface AboutProps {
@@ -20,7 +21,7 @@ const About: React.FC<AboutProps> = ({
   across Kenya.`,
   ctaText = "Get Started Now",
   ctaLink = "https://github.com/de-scientist",
-  imageSrc = "/src/images/about-img.jpg", // You can replace this with an imported asset
+  imageSrc = about, 
   imageAlt = "horse running",
 }) => {
   return (
