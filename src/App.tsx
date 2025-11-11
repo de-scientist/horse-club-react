@@ -35,10 +35,18 @@ function Header () {
   )
 }
 
+function Hero() {
+  return (
+    <section className="hero-section" >
+
+    </section>
+  )
+}
+
 function App() {
   return (
     <div>
-
+      <Header />
     </div>
   )
   
