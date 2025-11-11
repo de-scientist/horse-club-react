@@ -7,6 +7,7 @@ import TeamSection from "./components/Team";
 import BlogSection from "./components/Blogs";
 import TestimonialSection from "./components/Testimonial";
 import GallerySection from "./components/Gallery";
+import ContactSection from "./components/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <BlogSection />
       <TestimonialSection />
       <GallerySection />
+      <ContactSection />
 
     </div>
   );
