@@ -6,6 +6,7 @@ import ReasonsSection from "./components/Reasons";
 import TeamSection from "./components/Team";
 import BlogSection from "./components/Blogs";
 import TestimonialSection from "./components/Testimonial";
+import GallerySection from "./components/Gallery";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <TeamSection  />
       <BlogSection />
       <TestimonialSection />
+      <GallerySection />
 
     </div>
   );
