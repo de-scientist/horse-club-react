@@ -1,5 +1,6 @@
 import { FaPaperPlane } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import horse from '../assets/horse.png'
 
 function Header () {
   return (
@@ -13,7 +14,7 @@ function Header () {
         </div>
 
         <div className="logo">
-          <img src="./assets/horse.png" alt="logo" style={{width: "40px"}} />
+          <img src={horse} alt="logo" style={{width: "40px"}} />
           <p className="logo-text">horse club</p>
         </div>
 
