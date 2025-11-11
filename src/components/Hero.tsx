@@ -19,6 +19,7 @@ function Hero() {
           target="_blank" //opens link in new tab
           rel="noopener noreferrer" //security best practice to prevent tab hijacking
           className="hero-textbox-cta"
+          aria-label="Learn more about Horse on Github" // improves accessibility
         >
           learn more
         </a>
