@@ -1,4 +1,10 @@
 import React from "react";
+import img from "../assets/blog-img-1.jpg";
+import grooming from "../assets/service-horse-grooming.png";
+import training from "../assets/service-horse-training.png";
+import feeding from "../assets/service-horse-feeding.png";
+import sanctuary from "../assets/service-horse-santuary.png";
+import tracking from "../assets/service-horse-tracking.png";
 
 // Define types for blog metadata and blog card
 interface BlogMeta {
@@ -74,7 +80,7 @@ const BlogSection: React.FC = () => {
       title: "The Importance of Proper Horse Nutrition in Kenya",
       synopsis:
         "Nutrition is the backbone of a horse’s health and performance. In Kenya’s diverse climate, horses require a balanced diet of hay, grains, and mineral supplements. At Horse Club, we design feeding programs that strengthen muscles, boost immunity, and improve energy levels. A well-fed horse is not only healthier but also happier, more active, and better prepared for training.",
-      imageSrc: "./assets/blog-img-1.jpg",
+      imageSrc: img,
       imageAlt: "featured image",
       chips: ["travel", "lifestyle"],
       meta: { date: "31<sup>st</sup> September 2025", author: "Jane Shiru" },
