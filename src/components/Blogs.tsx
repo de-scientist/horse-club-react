@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../assets/blog-img-1.jpg";
-import grooming from "../assets/service-horse-grooming.png";
+import blog from "../assets/blog-img-2.jpg";
 import training from "../assets/service-horse-training.png";
 import feeding from "../assets/service-horse-feeding.png";
 import sanctuary from "../assets/service-horse-santuary.png";
@@ -98,7 +98,7 @@ const BlogSection: React.FC = () => {
         </ol>
         At Horse Club, our professional grooming keeps your horse looking sharp and feeling comfortable.
       `,
-      imageSrc: "./src/images/blog-img-2.jpg",
+      imageSrc: blog,
       imageAlt: "featured image",
       chips: ["travel", "lifestyle", "animals", "accommodation"],
       meta: { date: "30<sup>th</sup> September 2025", author: "Denny Ndegwa" },
