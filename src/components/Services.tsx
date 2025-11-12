@@ -1,7 +1,7 @@
 import React from "react";
 import vet from "../assets/service-vet.png";
 import grooming from "../assets/service-horse-grooming.png";
-import babra from "../assets/staff-babra.jpg";
+import training from "../assets/service-horse-training.png";
 import fleeky from "../assets/staff-george.jpg";
 import linet from "../assets/staff-linnet.jpg";
 import joshua from "../assets/staff-joshua.jpg";
@@ -58,7 +58,7 @@ const ServicesSection: React.FC = () => {
         "Luxurious grooming and coat care for your equine companion. We use premium brushes, safe grooming products, and gentle techniques to clean, trim mane & tail, and pamper your horse so it looks and feels its best.",
     },
     {
-      imgSrc: "./src/images/service-horse-training.png",
+      imgSrc: training,
       altText: "horse training",
       title: "horse training",
       description:
