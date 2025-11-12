@@ -4,7 +4,7 @@ import grooming from "../assets/service-horse-grooming.png";
 import training from "../assets/service-horse-training.png";
 import feeding from "../assets/service-horse-feeding.png";
 import sanctuary from "../assets/service-horse-santuary.png";
-import joshua from "../assets/staff-joshua.jpg";
+import tracking from "../assets/service-horse-tracking.png"";
 
 // Define the prop types for the ServiceCard
 interface ServiceCardProps {
@@ -79,7 +79,7 @@ const ServicesSection: React.FC = () => {
         "Safe haven for retired, rescued, or rehabilitating horses. Our spacious paddocks, dedicated care teams, and compassionate philosophy ensure every horse lives out its days in comfort, dignity, and peace.",
     },
     {
-      imgSrc: "./src/images/service-horse-tracking.png",
+      imgSrc: tracking,
       altText: "digital tracking",
       title: "digital tracking",
       description:
