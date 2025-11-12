@@ -2,7 +2,7 @@ import React from "react";
 import mark from "../assets/me.jpg";
 import bro from "../assets/bro.jpeg";
 import babra from "../assets/staff-babra.jpg";
-import e from "../assets/horse.png";
+import fleeky from "../assets/staff-george.jpg";
 import s from "../assets/horse.png";
 import r from "../assets/horse.png";
 
@@ -143,7 +143,7 @@ const TeamSection: React.FC = () => {
     {
       name: "Fleeky George",
       role: "Lead Trainer. Specializes in dressage, jumping, and behavioural conditioning. Fleeky brings patience, insight, and discipline to each horse.",
-      imageSrc: "./src/images/staff-george.jpg",
+      imageSrc: fleeky,
       imageAlt: "A head-shot of Fleeky",
       socialLinks: [
         {
