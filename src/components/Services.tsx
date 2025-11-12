@@ -1,4 +1,10 @@
 import React from "react";
+import vet from "../assets/service-vet.png";
+import bro from "../assets/bro.jpeg";
+import babra from "../assets/staff-babra.jpg";
+import fleeky from "../assets/staff-george.jpg";
+import linet from "../assets/staff-linnet.jpg";
+import joshua from "../assets/staff-joshua.jpg";
 
 // Define the prop types for the ServiceCard
 interface ServiceCardProps {
@@ -38,7 +44,7 @@ const ServicesSection: React.FC = () => {
   // Array of service data (typed automatically by inference)
   const services = [
     {
-      imgSrc: "./src/images/service-vet.png",
+      imgSrc: vet,
       altText: "veterinary services",
       title: "veterinary service",
       description:
