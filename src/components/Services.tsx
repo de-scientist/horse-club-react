@@ -1,6 +1,6 @@
 import React from "react";
 import vet from "../assets/service-vet.png";
-import bro from "../assets/bro.jpeg";
+import grooming from "../assets/service-horse-grooming.png";
 import babra from "../assets/staff-babra.jpg";
 import fleeky from "../assets/staff-george.jpg";
 import linet from "../assets/staff-linnet.jpg";
@@ -51,7 +51,7 @@ const ServicesSection: React.FC = () => {
         "Comprehensive veterinary care delivered by certified equine veterinarians. From routine wellness checks and vaccinations to emergency interventions, we ensure your horse gets the medical attention it deserves — with compassion, precision, and cutting-edge diagnostics.",
     },
     {
-      imgSrc: "./src/images/service-horse-grooming.png",
+      imgSrc: grooming,
       altText: "horse grooming",
       title: "horse grooming",
       description:
