@@ -2,7 +2,7 @@ import React from "react";
 import vet from "../assets/service-vet.png";
 import grooming from "../assets/service-horse-grooming.png";
 import training from "../assets/service-horse-training.png";
-import fleeky from "../assets/staff-george.jpg";
+import feeding from "../assets/service-horse-feeding.png";
 import linet from "../assets/staff-linnet.jpg";
 import joshua from "../assets/staff-joshua.jpg";
 
@@ -65,7 +65,7 @@ const ServicesSection: React.FC = () => {
         "Structured training programs tailored to your horse’s temperament and your goals — be it competition, riding confidence, or behavioural improvement. Our experienced trainers use positive reinforcement, consistent routines, and behavioral science to create harmony.",
     },
     {
-      imgSrc: "./src/images/service-horse-feeding.png",
+      imgSrc: feeding,
       altText: "horse feeding",
       title: "horse feeding",
       description:
