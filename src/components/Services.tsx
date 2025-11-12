@@ -3,7 +3,7 @@ import vet from "../assets/service-vet.png";
 import grooming from "../assets/service-horse-grooming.png";
 import training from "../assets/service-horse-training.png";
 import feeding from "../assets/service-horse-feeding.png";
-import linet from "../assets/staff-linnet.jpg";
+import sanctuary from "../assets/service-horse-santuary.png";
 import joshua from "../assets/staff-joshua.jpg";
 
 // Define the prop types for the ServiceCard
@@ -72,7 +72,7 @@ const ServicesSection: React.FC = () => {
         "Customized nutrition plans to match age, workload, and health condition. We use high-quality feeds, supplements, and seasonal adjustments to optimize digestion and performance in every horse.",
     },
     {
-      imgSrc: "./src/images/service-horse-santuary.png",
+      imgSrc: sanctuary,
       altText: "sanctuary for horses",
       title: "Sanctuary for horses",
       description:
