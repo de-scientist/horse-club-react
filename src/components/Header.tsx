@@ -88,7 +88,7 @@ const Header: React.FC<HeaderProps> = ({
               <li className="nav-list-item" key={index}>
                 <a
                   href={link.href}
-                  target="_blank"
+                  target="#"
                   rel="noopener noreferrer"
                   className="nav-list-item-link"
                 >
