@@ -36,7 +36,7 @@ const About: React.FC<AboutProps> = ({
 
         <a
           href={ctaLink}
-          target="_blank"
+          target="#"
           rel="noopener noreferrer"
           className="about-cta"
           aria-label={ctaText}
