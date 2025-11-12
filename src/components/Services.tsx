@@ -4,7 +4,7 @@ import grooming from "../assets/service-horse-grooming.png";
 import training from "../assets/service-horse-training.png";
 import feeding from "../assets/service-horse-feeding.png";
 import sanctuary from "../assets/service-horse-santuary.png";
-import tracking from "../assets/service-horse-tracking.png"";
+import tracking from "../assets/service-horse-tracking.png";
 
 // Define the prop types for the ServiceCard
 interface ServiceCardProps {
@@ -41,7 +41,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
  * Uses an array of services and maps them to ServiceCard components.
  */
 const ServicesSection: React.FC = () => {
-  // Array of service data (typed automatically by inference)
+  // Array of service data 
   const services = [
     {
       imgSrc: vet,
