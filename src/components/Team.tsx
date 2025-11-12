@@ -4,7 +4,7 @@ import bro from "../assets/bro.jpeg";
 import babra from "../assets/staff-babra.jpg";
 import fleeky from "../assets/staff-george.jpg";
 import linet from "../assets/staff-linnet.jpg";
-import r from "../assets/horse.png";
+import joshua from "../assets/staff-joshua.jpg";
 
 // Define prop types for the social links
 interface SocialLink {
@@ -191,7 +191,7 @@ const TeamSection: React.FC = () => {
     {
       name: "Joshua Kimani",
       role: "Sanctuary Manager. Leads care for resident and rescued horses, ensures daily welfare and enrichment.",
-      imageSrc: "./src/images/staff-joshua.jpg",
+      imageSrc: joshua,
       imageAlt: "A head-shot of Joshua",
       socialLinks: [
         {
