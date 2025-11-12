@@ -1,10 +1,10 @@
 import React from "react";
 import mark from "../assets/me.jpg";
-import bro from "../assets/horse.png";
-import horse from "../assets/horse.png";
-import horse from "../assets/horse.png";
-import horse from "../assets/horse.png";
-import horse from "../assets/horse.png";
+import bro from "../assets/bro.jpeg";
+import h from "../assets/horse.png";
+import e from "../assets/horse.png";
+import s from "../assets/horse.png";
+import r from "../assets/horse.png";
 
 // Define prop types for the social links
 interface SocialLink {
@@ -95,7 +95,7 @@ const TeamSection: React.FC = () => {
     {
       name: "Kennedy Nyoike",
       role: "Head Groomer. With 10+ years’ experience in show stables, Ken’s attention to detail ensures every horse shines.",
-      imageSrc: "./src/images/bro.jpeg",
+      imageSrc: bro,
       imageAlt: "A head-shot of irene",
       socialLinks: [
         {
