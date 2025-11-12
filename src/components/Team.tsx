@@ -1,7 +1,7 @@
 import React from "react";
 import mark from "../assets/me.jpg";
 import bro from "../assets/bro.jpeg";
-import h from "../assets/horse.png";
+import babra from "../assets/staff-babra.jpg";
 import e from "../assets/horse.png";
 import s from "../assets/horse.png";
 import r from "../assets/horse.png";
@@ -119,7 +119,7 @@ const TeamSection: React.FC = () => {
     {
       name: "Babra Obare",
       role: "IT & Digital Officer. She manages our booking platform, digital tracking systems, and keeps our online presence smooth.",
-      imageSrc: "./src/images/staff-babra.jpg",
+      imageSrc: babra,
       imageAlt: "A head-shot of Babra",
       socialLinks: [
         {
