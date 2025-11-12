@@ -3,7 +3,7 @@ import mark from "../assets/me.jpg";
 import bro from "../assets/bro.jpeg";
 import babra from "../assets/staff-babra.jpg";
 import fleeky from "../assets/staff-george.jpg";
-import s from "../assets/horse.png";
+import linet from "../assets/staff-linnet.jpg";
 import r from "../assets/horse.png";
 
 // Define prop types for the social links
@@ -167,7 +167,7 @@ const TeamSection: React.FC = () => {
     {
       name: "Linnet Wanjiku",
       role: "HR & Community Liaison. Keeps staff morale high and builds bridges with our community of riders.",
-      imageSrc: "./src/images/staff-linnet.jpg",
+      imageSrc: linet,
       imageAlt: "A head-shot of Linet",
       socialLinks: [
         {
