@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../assets/blog-img-1.jpg";
 import blog from "../assets/blog-img-2.jpg";
-import training from "../assets/service-horse-training.png";
+import img3 from "../assets/blog-img-3.jpg";
 import feeding from "../assets/service-horse-feeding.png";
 import sanctuary from "../assets/service-horse-santuary.png";
 import tracking from "../assets/service-horse-tracking.png";
@@ -107,7 +107,7 @@ const BlogSection: React.FC = () => {
       title: "Why Training Builds Trust Between Rider and Horse",
       synopsis:
         "Training isn’t just about performance — it’s about communication. A horse that’s well-trained responds calmly and confidently to its rider. We use progressive training techniques that emphasize patience, respect, and reward. This approach reduces stress, prevents accidents, and strengthens the bond between horse and rider. Whether for sport, leisure, or therapy, training is key to harmony.",
-      imageSrc: "./src/images/blog-img-3.jpg",
+      imageSrc: img3,
       imageAlt: "featured image",
       chips: ["travel", "lifestyle", "accommodation"],
       meta: { date: "28<sup>th</sup> September 2025", author: "Joan Shii" },
