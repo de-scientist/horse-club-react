@@ -1,4 +1,5 @@
 import React from "react";
+import linet from "../assets/staff-linnet.jpg"
 
 // Define types for testimonial props
 interface TestimonialProps {
@@ -28,7 +29,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
 const TestimonialSection: React.FC = () => {
   const testimonials: TestimonialProps[] = [
     {
-      imgSrc: "./src/images/staff-linnet.jpg",
+      imgSrc: linet,
       imgAlt: "Grace M. - Rider",
       text: "Horse Club has been a game-changer for my riding journey. Their training programs helped me build confidence and trust with my horse. I can now ride with ease and joy.",
       author: "Grace M., Rider",
