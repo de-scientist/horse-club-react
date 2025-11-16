@@ -2,9 +2,9 @@ import React from "react";
 import img from "../assets/blog-img-1.jpg";
 import blog from "../assets/blog-img-2.jpg";
 import img3 from "../assets/blog-img-3.jpg";
-import feeding from "../assets/service-horse-feeding.png";
-import sanctuary from "../assets/service-horse-santuary.png";
-import tracking from "../assets/service-horse-tracking.png";
+import img4 from "../assets/blog-img-4.jpg";
+import img5 from "../assets/blog-img-5.jpg";
+import img6 from "../assets/service-horse-tracking.png";
 
 // Define types for blog metadata and blog card
 interface BlogMeta {
@@ -116,7 +116,7 @@ const BlogSection: React.FC = () => {
       title: "Horse Sanctuary: Giving Horses a Second Chance at Life",
       synopsis:
         "Many horses are abandoned or neglected due to illness, old age, or financial strain. At our sanctuary in Murang’a, we provide these horses with shelter, food, and medical care. Our mission is to restore their dignity and offer them peace in a loving environment. Supporting our sanctuary means giving a horse another chance to live with freedom and care.",
-      imageSrc: "./src/images/blog-img-4.jpg",
+      imageSrc: img4,
       imageAlt: "featured image",
       chips: ["accommodation"],
       meta: {
@@ -128,7 +128,7 @@ const BlogSection: React.FC = () => {
       title: "How to Build a Strong Bond with Your Horse",
       synopsis:
         "A horse is more than a riding partner — it’s a companion that thrives on trust and respect. Building a strong bond requires patience, consistency, and kindness. Spend time grooming, walking, and talking to your horse outside of training sessions. Learn its moods, reward good behavior, and always handle with gentleness. At Horse Club in Murang’a, we emphasize relationship-building in all our training programs, because a bonded horse is calmer, more responsive, and more loyal.",
-      imageSrc: "./src/images/blog-img-5.jpg",
+      imageSrc: img5,
       imageAlt: "featured image",
       chips: ["lifestyle", "animals"],
       meta: { date: "26<sup>th</sup> September 2025", author: "Isaac Gitau" },
