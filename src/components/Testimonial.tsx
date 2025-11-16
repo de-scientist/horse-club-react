@@ -1,5 +1,8 @@
 import React from "react";
 import linet from "../assets/staff-linnet.jpg"
+import babra from "../assets/staff-babra.jpg"
+import linet from "../assets/staff-linnet.jpg"
+import linet from "../assets/staff-linnet.jpg"
 
 // Define types for testimonial props
 interface TestimonialProps {
@@ -35,7 +38,7 @@ const TestimonialSection: React.FC = () => {
       author: "Grace M., Rider",
     },
     {
-      imgSrc: "./src/images/staff-babra.jpg",
+      imgSrc: babra,
       imgAlt: "Mary W. - Parent",
       text: "As a parent, I wanted a safe environment where my children could interact with horses. Horse Club provided exactly that — professional care, guidance, and a warm atmosphere.",
       author: "Mary W., Parent",
