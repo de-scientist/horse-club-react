@@ -6,6 +6,7 @@ import fleeky from "../assets/staff-george.jpg";
 import linet from "../assets/staff-linnet.jpg";
 import joshua from "../assets/staff-joshua.jpg";
 import { FaInstagramSquare } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 // Define prop types for the social links
 interface SocialLink {
@@ -81,7 +82,7 @@ const TeamSection: React.FC = () => {
         },
         {
           url: "https://x.com/GitauMark1",
-          iconClass: "fa-brands fa-x-twitter",
+          iconClass: <FaXTwitter />,
         },
         {
           url: "https://www.facebook.com/profile.php?id=100072778362304",
