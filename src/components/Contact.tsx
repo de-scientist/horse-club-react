@@ -21,7 +21,7 @@ const defaultContactInfo: ContactInfoItem[] = [
   { iconClass: "fa-solid fa-phone", label: "+254 729 934 671" },
   {
     iconClass: "fa-solid fa-envelope",
-    label: "urhaven@apartments.com",
+    label: "urbanhaven@apartments.com",
     href: "mailto:gitaumark502@gmail.com",
   },
   {
