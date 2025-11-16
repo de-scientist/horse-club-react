@@ -1,5 +1,6 @@
 import React, { useState, type FormEvent } from "react";
 import { FaInstagramSquare } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 
 interface FormData {
   firstName: string;
@@ -26,7 +27,7 @@ const defaultContactInfo: ContactInfoItem[] = [
     href: "mailto:gitaumark502@gmail.com",
   },
   {
-    iconClass: "fa-brands fa-facebook",
+    iconClass: <FaFacebookSquare />,
     label: "Facebook",
     href: "https://facebook.com",
   },
