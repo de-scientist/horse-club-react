@@ -8,6 +8,7 @@ import joshua from "../assets/staff-joshua.jpg";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 
 // Define prop types for the social links
 interface SocialLink {
@@ -91,7 +92,7 @@ const TeamSection: React.FC = () => {
         },
         {
           url: "https://github.com/de-scientist/",
-          iconClass: "fa-brands fa-github",
+          iconClass: <FaGithubSquare />,
         },
       ],
     },
