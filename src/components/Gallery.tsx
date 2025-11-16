@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import rider from "../assets/rider.jpg"
 import feeding from "../assets/feeding.jpg"
-import rider from "../assets/rider.jpg"
+import training from "../assets/training-session.jpg"
 import rider from "../assets/rider.jpg"
 
 interface GalleryItem {
@@ -14,7 +14,7 @@ const GallerySection: React.FC = () => {
     { src: rider, alt: "Horse riding session" },
     { src: feeding, alt: "Feeding the horse" },
     {
-      src: "./src/images/training-session.jpg",
+      src: training,
       alt: "Training field in Murang'a",
     },
     { src: "./src/images/grooming.jpg", alt: "Horse grooming session" },
