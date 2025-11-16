@@ -12,7 +12,7 @@ interface FormData {
 }
 
 interface ContactInfoItem {
-  iconClass: string;
+  iconClass: React.ReactNode;
   label: string;
   href?: string;
 }
@@ -84,7 +84,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({
       <div className="contact-info">
         {contactInfo.map((item, index) => (
           <div key={index} className="info-item">
-            <i className={item.iconClass}></i>
+           <span  className="icon">{item.iconClass}</span>
             {item.href ? (
               <a href={item.href} target="_blank" rel="noopener noreferrer">
                 {item.label}
