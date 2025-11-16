@@ -4,7 +4,7 @@ import blog from "../assets/blog-img-2.jpg";
 import img3 from "../assets/blog-img-3.jpg";
 import img4 from "../assets/blog-img-4.jpg";
 import img5 from "../assets/blog-img-5.jpg";
-import img6 from "../assets/service-horse-tracking.png";
+import img6 from "../assets/blog-img-6.jpg";
 
 // Define types for blog metadata and blog card
 interface BlogMeta {
@@ -137,7 +137,7 @@ const BlogSection: React.FC = () => {
       title: "The Growing Horse Culture in Kenya",
       synopsis:
         "Over the last decade, horse riding has grown from a niche activity to a vibrant culture across Kenya. From competitive sports and leisure riding to therapy programs and farm work, horses are becoming part of daily life for many families. At Horse Club, we are proud to be part of this cultural shift, providing expert training, care, and sanctuary services that nurture both horses and riders. With Murang’a becoming a hub for equine enthusiasts, the future of horse culture in Kenya has never been brighter.",
-      imageSrc: "./src/images/blog-img-6.jpg",
+      imageSrc: img6,
       imageAlt: "featured image",
       chips: ["lifestyle", "animals", "accommodation"],
       meta: { date: "25<sup>th</sup> September 2025", author: "Rita Waithera" },
