@@ -1,6 +1,7 @@
 import React, { useState, type FormEvent } from "react";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 
 interface FormData {
@@ -21,7 +22,7 @@ interface ContactSectionProps {
 }
 
 const defaultContactInfo: ContactInfoItem[] = [
-  { iconClass: "fa-solid fa-phone", label: "+254 729 934 671" },
+  { iconClass: <FaPhoneAlt />, label: "+254 729 934 671" },
   {
     iconClass: <FaEnvelope />,
     label: "urbanhaven@apartments.com",
