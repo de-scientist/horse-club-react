@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import rider from "../assets/rider.jpg"
 import feeding from "../assets/feeding.jpg"
 import training from "../assets/training-session.jpg"
-import rider from "../assets/rider.jpg"
+import grooming from "../assets/grooming.jpg"
 
 interface GalleryItem {
   src: string;
@@ -17,7 +17,7 @@ const GallerySection: React.FC = () => {
       src: training,
       alt: "Training field in Murang'a",
     },
-    { src: "./src/images/grooming.jpg", alt: "Horse grooming session" },
+    { src: grooming, alt: "Horse grooming session" },
   ];
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
