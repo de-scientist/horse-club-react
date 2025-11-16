@@ -58,7 +58,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // API integration or email service can go here
+    // API integration or email service can go here-- my trials
     console.log("Form submitted:", formData);
 
     // Simulate success
