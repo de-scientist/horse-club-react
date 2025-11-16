@@ -2,10 +2,9 @@ import React from "react";
 import { FaPaperPlane, FaPhoneAlt } from "react-icons/fa";
 import horse from "../assets/horse.png";
 
-// Define TypeScript types for reusability
 interface NavLink {
   label: string;
-  href: string;
+  href: string; // internal anchor links
 }
 
 interface HeaderProps {
@@ -17,7 +16,6 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({
-  // add Default props (which ensures component works standalone)
   email = "gitaumark502@gmail.com",
   phone = "+254 729 934 671",
   logoSrc = horse,
@@ -37,9 +35,9 @@ const Header: React.FC<HeaderProps> = ({
 }) => {
   return (
     <header className="header">
-      {/* --- Top Section: Contact + Logo --- */}
+      {/* --- Top Contact & Logo Section --- */}
       <div className="header-top">
-        {/* Left Contact: Email */}
+        {/* Email */}
         <div className="header-contact">
           <span className="header-contact-icon">
             <FaPaperPlane />
@@ -47,8 +45,6 @@ const Header: React.FC<HeaderProps> = ({
           <p className="header-contact-text">
             <a
               href={`mailto:${email}`}
-              target="_blank"
-              rel="noopener noreferrer"
               aria-label="Send an email"
             >
               {email}
@@ -56,19 +52,17 @@ const Header: React.FC<HeaderProps> = ({
           </p>
         </div>
 
-        {/* Logo Section */}
+        {/* Logo */}
         <div className="logo">
           <img src={logoSrc} alt={logoAlt} style={{ width: "40px" }} />
           <p className="logo-text">horse club</p>
         </div>
 
-        {/* Right Contact: Phone */}
+        {/* Phone */}
         <div className="header-contact">
           <p className="header-contact-text">
             <a
               href={`tel:${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
               aria-label="Call us"
             >
               {phone}
@@ -80,7 +74,7 @@ const Header: React.FC<HeaderProps> = ({
         </div>
       </div>
 
-      {/* --- Bottom Section: Navigation --- */}
+      {/* --- Bottom Navigation Section --- */}
       <div className="header-bottom">
         <nav>
           <ul className="nav-list">
@@ -88,8 +82,6 @@ const Header: React.FC<HeaderProps> = ({
               <li className="nav-list-item" key={index}>
                 <a
                   href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="nav-list-item-link"
                 >
                   {link.label}
