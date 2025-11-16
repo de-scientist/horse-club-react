@@ -18,7 +18,7 @@ interface ContactSectionProps {
 }
 
 const defaultContactInfo: ContactInfoItem[] = [
-  { iconClass: "fa-solid fa-phone", label: "+254 718 764 327" },
+  { iconClass: "fa-solid fa-phone", label: "+254 729 934 671" },
   {
     iconClass: "fa-solid fa-envelope",
     label: "urhaven@apartments.com",
