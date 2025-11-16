@@ -2,7 +2,7 @@ import React from "react";
 import linet from "../assets/staff-linnet.jpg"
 import babra from "../assets/staff-babra.jpg"
 import joshua from "../assets/staff-joshua.jpg"
-import linet from "../assets/staff-linnet.jpg"
+import irene from "../assets/staff-irene.jpg"
 
 // Define types for testimonial props
 interface TestimonialProps {
@@ -50,7 +50,7 @@ const TestimonialSection: React.FC = () => {
       author: "Samuel W., Farmer",
     },
     {
-      imgSrc: "./src/images/staff-irene.jpg",
+      imgSrc: irene,
       imgAlt: "Irene N. - Sanctuary Supporter",
       text: "The Horse Sanctuary is a true blessing. I’ve seen neglected horses find peace and love here. Supporting this cause has been one of the most fulfilling things I’ve done.",
       author: "Irene N., Sanctuary Supporter",
