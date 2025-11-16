@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import rider from "../assets/rider.jpg"
+import feeding from "../assets/feeding.jpg"
+import rider from "../assets/rider.jpg"
+import rider from "../assets/rider.jpg"
 
 interface GalleryItem {
   src: string;
@@ -9,7 +12,7 @@ interface GalleryItem {
 const GallerySection: React.FC = () => {
   const galleryItems: GalleryItem[] = [
     { src: rider, alt: "Horse riding session" },
-    { src: "./src/images/feeding.jpg", alt: "Feeding the horse" },
+    { src: feeding, alt: "Feeding the horse" },
     {
       src: "./src/images/training-session.jpg",
       alt: "Training field in Murang'a",
