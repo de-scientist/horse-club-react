@@ -77,7 +77,7 @@ const TeamSection: React.FC = () => {
       socialLinks: [
         {
           url: "https://www.instagram.com/gitau6732/",
-          iconClass: "",
+          iconClass: <FaInstagramSquare />,
         },
         {
           url: "https://x.com/GitauMark1",
